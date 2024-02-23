@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Micro Project 1</title>
+  <style>
+    
+    .container {  
+      
+      width: 1440px;
+      height: 890px;
+      margin: 0 auto;
+    }
+    .upper-box {
+      height: 592px;
+      width: 1440px;
+      display: flex;
+      align-items: flex-start;
+      background-color: #FFCD9E;
+    }
+    .left-box {
+      flex: 1;
+    }
+    .right-box {
+      flex: 1;
+      padding-left: 20px; 
+    }
+    .image {
+      
+      width: 575px;
+      height: 575px;
+      top : 20px;
+      left: 818px;
+
+    }
+    .input-box {
+      margin: 0px;
+      font-family :Arial, Helvetica, sans-serif;
+      font-size: large;
+    
+    }
+    input[type="text"] {
+      width: 344px;
+      height: 64px;
+      border-width: 2px;
+      border-color: #282828;
+      border-radius: 10px;
+    }
+    button {
+      width: 216px;
+      height: 64px;
+      border-color: black;
+      background-color: #282828;
+      color: white;
+      font-size: larger;
+      border-radius: 10px;
+      
+    }
+    .lower-box {
+      height: 298px;
+      width: 1440px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      background-color: #282828;
+      color: white;
+    }
+    .list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .text_upperbox
+    {
+      padding-left: 100px;
+      padding-top: 100px;
+    }
+    .list_left
+    {
+      padding-left: 100px;
+      padding-top: 100px;
+      list-style-type: none;
+      font-weight: 400;
+      size: 20px;
+      line-height: 32px;
+    }
+    .list_right
+    {
+      padding-right: 100px;
+      padding-top: 100px;
+      list-style-type: none;
+      font-weight: 400;
+      size: 20px;
+      line-height: 32px;
+    }
+    .p1
+    {
+    
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 32px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    
+    .image-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .image-list-item {
+      display: flex;
+      margin-bottom: 20px; 
+    }
+    .icons {
+      width: 30px; 
+      height: 30px;
+      margin-right: 10px; 
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="upper-box">
+      <div class="left-box">
+        <div class = text_upperbox>
+          <h1 style="font-family: Arial, Helvetica, sans-serif;">An inspiring design delivered to <br> your inbox every morning</h1>
+          <div class="p1">
+            <p>Our team scouts the internet for the best designs, <br> illustrations and art and delivers a truly inspiring 
+            <br> one every day to your inbox</p>
+          </div>
+          <div class="p1">
+            <p style="margin-bottom: 5px;"><b>Show me how it looks</b></p>
+            
+          </div>
+        </div>
+        <div class="text_upperbox">
+              <div class="input-box">
+                <input type="text" style="font-size: larger;padding-left: 20px;" placeholder="Your e-mail address">
+                <button><b>Register Now</b></button>
+              </div>
+        </div>
+        <p style ='color:white;padding-left: 100px;padding-bottom:100px'>Free-No Spam-No Data Sharing</p>
+      </div>
+      <div class="right-box">
+        <img class="image" src="image.png" alt="Image">
+      </div>
+    </div>
+    <div class="lower-box">
+      <div class="list_left"
+        <ul class="list">
+          <li>Prompt Generator</li>
+          <li>Dweep Daily</li>
+          <li>All Contributors</li>
+          <li>Your data on Dweep.io</li>
+          <li>Contribute to Dweep</li>
+          
+        </ul>
+      </div>
+      <div class="list_right"
+        <ul class="list">
+          <li>Dweep.io</li>
+          <li>Made with love in India</li>
+          <div class="image-list">
+            <li class="image-list-item">
+              <img class="icons" src="linkedin.png" alt="linkedin">
+              <img class="icons" src="insta.png" alt="Instagram">
+            </li>
+          </div>
+          <li>hello@dweep.io</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
